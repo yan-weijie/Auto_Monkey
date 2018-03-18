@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2" useDefaultListeners="false" configfailurepolicy="continue" 
+    time-out="1000000000000000" skipfailedinvocationcounts="true" preserve-order="true" > 
+	<test name="执行monkey" enabled="true" > 
+		<classes>
+			<class name="com.sun.demo.MonkeyRun">
+			</class>
+		</classes>
+	</test>
+	<test name="备份测试结果到ftp服务器" enabled="true" > 
+		<classes>
+			<class name="com.monkey.util.FtpApacheUploadFile">
+			</class>
+		</classes>
+	</test>
+</suite> 

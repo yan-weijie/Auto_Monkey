@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--手机启动参数-->
+<infos>
+	<capabilities>
+	    <!-- 1：线上环境   2：测试环境-->
+		<switch>1</switch>
+		<!-- appPackage com.allin.social net.medplus.social-->
+		<appPackage>net.medplus.social</appPackage>
+		<!-- 手机存储数据目录 -->
+		<phoneDataDir>/storage/sdcard0/</phoneDataDir>
+		<!-- 本地存储数据目录 -->
+		<workDataDir>/data/</workDataDir>
+		<!-- monkey日志文件 -->
+		<monkeyLog>monkey_log.txt</monkeyLog>
+		<!-- 白名单文件 -->
+		<whiteFile>whitelist.txt</whiteFile>
+		<!-- 黑名单文件 -->
+		<blackFile>blacklist.txt</blackFile>
+		<!-- 资源统计图本地存储目录 -->
+		<chartReports>/data/MonkeyChartReports/</chartReports>
+		<!-- 资源日志本地存储目录 -->
+		<monitorData>/data/MonitorData/</monitorData>
+		<!-- 内存日志文件（汇总） -->
+		<memInfo>memInfo.txt</memInfo>
+		<!-- cpu日志文件（汇总） -->
+		<cpuInfo>cpuInfo.txt</cpuInfo>
+		<!-- 内存日志文件（临时）-->
+		<memInfoTemp>memInfo_temp.txt</memInfoTemp>
+		<!--cpu日志文件（临时） -->
+		<cpuInfoTemp>cpuInfo_temp.txt</cpuInfoTemp>
+	</capabilities>	
+</infos>
