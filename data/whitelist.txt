@@ -1,1 +1,1 @@
-net.medplus.social
+com.test.demo
