@@ -4,8 +4,8 @@
 	<capabilities>
 	    <!-- 1：线上环境   2：测试环境-->
 		<switch>1</switch>
-		<!-- appPackage com.allin.social net.medplus.social-->
-		<appPackage>net.medplus.social</appPackage>
+		<!-- appPackage com.test.demo -->
+		<appPackage>com.test.demo</appPackage>
 		<!-- 手机存储数据目录 -->
 		<phoneDataDir>/storage/sdcard0/</phoneDataDir>
 		<!-- 本地存储数据目录 -->
